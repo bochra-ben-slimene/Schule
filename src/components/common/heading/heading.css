@@ -1,9 +1,10 @@
+
 #heading h3 {
-    color: #fff;
+    color: #f6921e;
 }
 
 #heading {
-    text-align: left;
+    /* text-align: left; */
     margin: 0;
     padding: 0;
 }

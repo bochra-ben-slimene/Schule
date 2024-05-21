@@ -346,7 +346,7 @@ export const homeAbout = [
     {
       id: 2,
       type: "admin",
-      date: "API. 25, 2022",
+      date: "Fev. 25, 2022",
       com: "5 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",

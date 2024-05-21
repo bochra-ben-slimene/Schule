@@ -16,7 +16,7 @@ const HAbout = () => {
             <div className='grid2'>
               {coursesCard.slice(0, 3).map((val) => (
                 <div className='items'>
-                  <div className='content flex'>
+                  <div className='content flex courses'>
                     <div className='left'>
                       <div className='img'>
                         <img src={val.cover} alt='' />

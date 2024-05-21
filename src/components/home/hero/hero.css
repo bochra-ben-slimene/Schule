@@ -30,3 +30,17 @@
         width: 100%;
     }
 }
+
+/*******************/
+.button .primary-btn {
+    background-color: #F6921E;
+}
+.button button.view-course {
+    color: #f6921e;
+}
+
+.text-left #heading{
+    text-align: left !important;
+    float: left;
+
+}
