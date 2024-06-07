@@ -395,4 +395,13 @@ footer .container {
   height: 35px;
   line-height: 35px;
 }
+.contacts .right{
+  padding: 20px !important;
+}
+}
+@media (min-width: 1300px){
+  .hero_header_responsive {
+    display: flex;
+    flex-direction: column;
+}
 }
