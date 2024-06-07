@@ -102,8 +102,29 @@
   }
   .logo img {
     width: 58px;
-    padding-top: 6px;
+    padding: 6px 0;
 }
+
+.logo-desktop {
+  display: none;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .logo-desktop {
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .logo-mobile {
+    display: block;
+  }
+}
+
 .start {
   padding: 15px 28px;
 }
@@ -119,4 +140,8 @@
 }
 header ul li a:hover {
   color: #F6921E;
+}
+
+nav.flexSB.header{
+  align-items: center;
 }

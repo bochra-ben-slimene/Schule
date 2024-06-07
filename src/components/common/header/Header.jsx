@@ -11,10 +11,9 @@ const Header = () => {
       <header>
         <nav className='flexSB header'>
         <div className='logo'>
-            {/* <h1>ACADEMIA</h1>
-            <span>ONLINE EDUCATION & LEARNING</span> */} 
-            <img src="./images/logo.png" alt=""/>
-          </div>
+          {/* <img className="logo-desktop" src="./images/logo.png" alt="Desktop Logo"/> */}
+          <img className="logo-mobile" src="./images/logo-blanc.png" alt="Mobile Logo"/>
+        </div>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
             <li>
               <a href='/'>Home</a>
