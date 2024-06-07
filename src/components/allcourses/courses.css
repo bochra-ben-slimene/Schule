@@ -22,11 +22,16 @@
     margin-left: 15px;
     text-align: left;
   }
-  .coursesCard .text h1 {
+  /* .coursesCard .text h1 {
     font-size: 30px;
     font-weight: 500;
     line-height: 45px;
-  }
+  } */
+  .coursesCard .text h1 {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px;
+}
   .coursesCard .rate {
     margin: 20px 0;
     color: #F6921E;
