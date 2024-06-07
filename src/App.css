@@ -116,7 +116,10 @@ p {
 }
 @media (min-width: 992px){
   .margin {
-    margin-top: 40.3%;
+    margin-top: 36.3%;
+  }
+  img.logo-mobile {
+    margin-top: 10px;
   }
 }
 .grid {
@@ -403,5 +406,8 @@ footer .container {
   .hero_header_responsive {
     display: flex;
     flex-direction: column;
+}
+img.logo-mobile {
+  margin-top: 10px;
 }
 }
