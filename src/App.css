@@ -168,3 +168,139 @@ p {
   flex-direction: column;
   align-items: center;
 }
+
+
+@media screen and (max-width: 768px) {
+  .aboutHome .container {
+    flex-direction: column-reverse;
+  }
+  .aboutHome .row {
+    width: 100%;
+  }
+  .awrapper {
+    height: 50vh;
+  }
+  .awrapper .box {
+    padding: 13px 0;
+  }
+  .awrapper {
+    color: #f6921e;
+  }
+
+  .coursesCard .items {
+  padding: 15px;
+  }
+  .testimonal .items {
+    padding: 18px;
+    transition: 0.5s;
+  }
+  section.blog .grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+}
+@media (max-width: 550px){
+.grid2{
+  grid-template-columns: repeat(1, 1fr);
+}
+.awrapper {
+  height: 90vh !important;
+}
+.aboutHome .right {
+  padding: 0 !important;
+}
+
+#heading h1 {
+  font-size: 25px;
+}
+.online h1 {
+  line-height: 40px;
+}
+.hero_header_responsive.row.text-left button {
+  padding: 9px 18px;
+}
+}
+@media (max-width: 500px) {
+  footer .container {
+      grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .grid2, .grid3, .grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+}
+.newletter .right, .newletter .left {
+  padding-right: 0 !important;
+}
+.newletter .flexSB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newletter .flexSB .row {
+ width: 100%;
+}
+.testimonal .items {
+  padding: 15px !important;
+}
+}
+@media (max-width: 991px) and (min-width: 767px){
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+}
+}
+
+@media (max-width: 991px){
+  section.testimonal .content.grid2 {
+    width: 100%;
+    overflow: auto;
+}
+section.blog .grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+footer .container {
+  grid-template-columns: repeat(3, 1fr);
+}
+.hprice .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+}
+
+@media (max-width: 1300px) and (min-width: 950px){
+  .online .grid3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.hprice .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+section.testimonal .content.grid2 {
+  width: 100%;
+  overflow: auto;
+}
+footer .container {
+  grid-template-columns: repeat(3, 1fr);
+}
+}
+
+@media (max-width: 1300px) and (min-width: 550px){
+  .coursesCard .text h1 {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 32px;
+    height: 20vh;
+    align-content: center;
+}
+}
+@media (max-width: 1200px) and (min-width: 767px){
+  .hero .row.hero_header_responsive {
+      width: 80% !important;
+  }
+}

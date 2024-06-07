@@ -80,6 +80,20 @@
     .awrapper {
       height: 50vh;
     }
+    .awrapper .box {
+      padding: 13px 0;
+    }
+    .awrapper {
+      color: #f6921e;
+    }
+
+    .coursesCard .items {
+    padding: 15px;
+    }
+    .testimonal .items {
+      padding: 18px;
+      transition: 0.5s;
+    }
   }
  
   section.homeAbout {

@@ -22,15 +22,19 @@
 
     .hero {
         background-position: right;
-        padding-top: 50%;
-        height: 80vh;
+        padding-top: 35%;
+        height: -webkit-fill-available;
     }
 
     .hero .row {
         width: 100%;
     }
 }
-
+@media (max-width: 768px) and (min-width: 1200px){
+    .row.hero_header_responsive {
+        width: 100%;
+    }
+}
 /*******************/
 .button .primary-btn {
     background-color: #F6921E;

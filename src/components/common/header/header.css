@@ -52,7 +52,7 @@
     display: none;
   }
   /*--------header------------*/
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 991px) {
     .start {
       clip-path: none;
     }
@@ -75,21 +75,34 @@
       position: absolute;
       right: 0;
       top: -20px;
+      box-shadow: none !important;
+
+
     }
     .mobile-nav {
       position: absolute;
-      top: 7vh;
+      top: 0vh;
       left: 0;
       width: 100%;
       background-color: #1eb2a6;
     }
+    .flexSB.header {
+      padding: 0 9px;
+      align-items: center;
+      display: flex;
+      justify-content: normal;
+  }
+  .logo img {
+    width: 58px;
+    padding-top: 6px;
+}
+.start {
+  padding: 15px 28px;
+}
   }
   
   /**************************/
-  .flexSB.header {
-    padding-top: 22px;
-    align-items: center;
-}
+
 .icon {
   color: #F6921E;
 }
